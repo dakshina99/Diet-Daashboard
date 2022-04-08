@@ -1,0 +1,89 @@
+<h1><strong>Food List</strong></h1>
+
+<!-- <table mat-table [dataSource]="FOOD_DATA">
+    <ng-container matColumnDef="Name">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let food"> {{food.name}} </td>
+      </ng-container>
+</table> -->
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Select</th>
+      <th scope="col">Name</th>
+      <th scope="col">Fat</th>
+      <th scope="col">Protien</th>
+      <th scope="col">Carbs</th>
+      <th scope="col">Fibre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+      </div>
+      </td>
+      <td>Corn</td>
+      <td>1</td>
+      <td>3</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+      </div>
+      </td>
+      <td>Avacado</td>
+      <td>15</td>
+      <td>2</td>
+      <td>9</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+      </div>
+      </td>
+      <td>Yams</td>
+      <td>0</td>
+      <td>2</td>
+      <td>28</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+      </div>
+      </td>
+      <td>Bananas</td>
+      <td>0</td>
+      <td>1</td>
+      <td>23</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+      </div>
+      </td>
+      <td>Peaches</td>
+      <td>0</td>
+      <td>1</td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="row">
+  <div class="col-5">
+    <button type="button" class="btn btn-warning">Add to Today List</button>
+  </div>
+</div>

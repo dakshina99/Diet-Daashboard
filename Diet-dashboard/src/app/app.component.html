@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diet Dashboard</title>
+</head>
+
+<body>
+  <!-- <div class="row">
+    <app-headercomponent></app-headercomponent>
+  </div>
+
+
+  <app-footer></app-footer> -->
+
+  <mat-toolbar>
+    <app-headercomponent></app-headercomponent>
+  </mat-toolbar>
+
+  <!-- <app-headercomponent></app-headercomponent> -->
+
+  <mat-sidenav-container>
+    <mat-sidenav class="mat-elevation-z8" mode="side" opened>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button" routerLink="/foodlist">
+        <mat-icon>list</mat-icon>
+        <span>Food List</span>
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button" routerLink="/todaylist" routerLinkActive="active">
+        <mat-icon>today</mat-icon>
+        <span>Today</span>
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button active" routerLink="/chart">
+        <mat-icon>pie_chart</mat-icon>
+        <span>Chart</span>
+      </button>
+
+      <mat-divider></mat-divider>
+
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="content mat-elevation-z8">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  <app-footer></app-footer>
+</body>
+
+</html>
