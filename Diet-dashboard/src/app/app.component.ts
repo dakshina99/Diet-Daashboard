@@ -1,4 +1,6 @@
+import { TodayFoodsService } from './today-foods.service';
 import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-root',

@@ -12,6 +12,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from "@angular/material/table";
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { Ng2GoogleChartsModule } from 'ng2-google-charts';
+import { GoogleChartComponent } from './google-chart/google-chart.component';
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     HeadercomponentComponent,
     FooterComponent,
     FoodListComponent,
-    TodayListComponent
+    TodayListComponent,
+    GoogleChartComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     BrowserAnimationsModule,
     MatTableModule,
     MatCheckboxModule,
-    MatIconModule
+    MatIconModule,
+    Ng2GoogleChartsModule
   ],
   providers: [
     TodayFoodsService

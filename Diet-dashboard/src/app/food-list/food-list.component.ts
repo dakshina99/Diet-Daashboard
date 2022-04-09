@@ -75,6 +75,7 @@ export class FoodListComponent implements OnInit {
     this.todayFoods.updateSumList(carb,2);
     this.todayFoods.updateSumList(fib,3);
     //this.todayFoods.addData(this.uncheckedData[sumIndex]);
+    console.log(this.todayFoods.getSumList());
 
   }
 
