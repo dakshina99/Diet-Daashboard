@@ -1,0 +1,15 @@
+<mat-toolbar>
+  <mat-toolbar-row class="justify-content-between">
+    <button mat-icon-button (click)="toggleSidebar()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <div class="row mr-2 ml-auto">
+      <div class="col-6">
+        <span><mat-icon>date_range</mat-icon><h5>{{ dateTime | async | date:'longDate'}} </h5></span>
+      </div>
+      <div class="col-6">
+        <span><mat-icon>timelapse</mat-icon><h5>{{ dateTime | async | date:'mediumTime'}} </h5></span>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

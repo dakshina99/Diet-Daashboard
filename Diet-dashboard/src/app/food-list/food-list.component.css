@@ -1,0 +1,20 @@
+.card{
+  padding: 10px;
+  min-height: calc(100vh - 200px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #151a291a;
+}
+
+.card-body{
+  height: fit-content;
+}
+
+.card-title{
+  color: #151a29;
+}
+
+table {
+  width: 100%;
+}

@@ -1,34 +1,84 @@
-import { FOOD } from "./Food";
+import { FOOD } from './Food';
 
 export const FOODS: FOOD[] = [
-    {
-        position: 1,
-        name: 'Corn',
-        fat: 1,
-        protein: 3,
-        carbohydrates: 19,
-        fiber: 3
-    },
-    {
-        position: 2,
-        name: 'Avacado',
-        fat: 15,
-        protein: 2,
-        carbohydrates: 9,
-        fiber: 7
-    },
-
-]
-
-// export const ELEMENT_DATA: PeriodicElement[] = [
-//     {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
-//     {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},
-//     {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},
-//     {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},
-//     {position: 5, name: 'Boron', weight: 10.811, symbol: 'B'},
-//     {position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C'},
-//     {position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N'},
-//     {position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O'},
-//     {position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F'},
-//     {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},
-//   ];
+  {
+    position: 1,
+    name: 'Corn',
+    fat: 1,
+    protein: 3,
+    carbohydrates: 19,
+    fiber: 3,
+  },
+  {
+    position: 2,
+    name: 'Avacado',
+    fat: 15,
+    protein: 2,
+    carbohydrates: 9,
+    fiber: 7,
+  },
+  {
+    position: 3,
+    name: 'Yams',
+    fat: 0,
+    protein: 2,
+    carbohydrates: 28,
+    fiber: 4,
+  },
+  {
+    position: 4,
+    name: 'Bananas',
+    fat: 0,
+    protein: 1,
+    carbohydrates: 23,
+    fiber: 3,
+  },
+  {
+    position: 5,
+    name: 'Peaches',
+    fat: 0,
+    protein: 1,
+    carbohydrates: 10,
+    fiber: 1,
+  },
+  {
+    position: 6,
+    name: 'Stawberries',
+    fat: 0,
+    protein: 1,
+    carbohydrates: 8,
+    fiber: 2,
+  },
+  {
+    position: 7,
+    name: 'Almonds',
+    fat: 49,
+    protein: 21,
+    carbohydrates: 22,
+    fiber: 12,
+  },
+  {
+    position: 8,
+    name: 'Pecans',
+    fat: 72,
+    protein: 9,
+    carbohydrates: 14,
+    fiber: 10,
+  },
+  {
+    position: 9,
+    name: 'Walnuts',
+    fat: 65,
+    protein: 15,
+    carbohydrates: 14,
+    fiber: 7,
+  },
+  {
+    position: 10,
+    name: 'Hazelnuts',
+    fat: 61,
+    protein: 15,
+    carbohydrates: 17,
+    fiber: 10,
+  },
+];

@@ -26,7 +26,10 @@ export class GoogleChartComponent implements OnInit {
       ['Carbs', this.sumList[2] ],
       ['Fiber',  this.sumList[3] ]
     ],
-    options: {'title': 'Nutrition'},
+    options: {width: 700,
+      height : 500
+   },
+
   };
 
 }

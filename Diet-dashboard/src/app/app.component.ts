@@ -1,4 +1,3 @@
-import { TodayFoodsService } from './today-foods.service';
 import { Component } from '@angular/core';
 
 
@@ -9,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Diet-dashboard';
+
+  sideBarOpen = true;
+
+  sideBarToggler() {
+    this.sideBarOpen = !this.sideBarOpen;
+  }
 }

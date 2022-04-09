@@ -1,25 +1,10 @@
-<!-- <app-headercomponent></app-headercomponent> -->
-
-<button mat-button class="btn menu-button" routerLink="/foodlist">
-  <mat-icon>list</mat-icon>
-  <span>Food List</span>
-</button>
-
-<button mat-button class="btn menu-button" routerLink="/todaylist" routerLinkActive="active">
-  <mat-icon>today</mat-icon>
-  <span>Today</span>
-</button>
-
-<button mat-button class="btn menu-button" routerLink="/chart" routerLinkActive="active">
-  <mat-icon>pie_chart</mat-icon>
-  <span>Chart</span>
-</button>
-
-
-
-
-
-<router-outlet></router-outlet>
-
-<!-- <app-today-list></app-today-list> -->
-<app-footer></app-footer>
+<mat-drawer-container>
+  <mat-drawer mode="side" [opened]="sideBarOpen">
+    <app-sidenav></app-sidenav>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-header (toggleSidebarForMe)="sideBarToggler()"></app-header>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </mat-drawer-content>
+</mat-drawer-container>
