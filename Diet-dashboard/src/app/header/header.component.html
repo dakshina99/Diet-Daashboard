@@ -1,14 +1,27 @@
 <mat-toolbar>
   <mat-toolbar-row class="justify-content-between">
-    <button mat-icon-button (click)="toggleSidebar()">
-      <mat-icon>menu</mat-icon>
-    </button>
+    <div class="row">
+      <div class="col-1 mr-3 " style="padding-top: 4px;">
+        <button mat-icon-button (click)="toggleSidebar()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+      <div class="col-6 mt-0 ml-0 mr-auto align-baseline">
+        <h1 class="display-1">DIET DASHBOARD</h1>
+      </div>
+    </div>
     <div class="row mr-2 ml-auto">
       <div class="col-6">
-        <span><mat-icon>date_range</mat-icon><h5>{{ dateTime | async | date:'longDate'}} </h5></span>
+        <span>
+          <mat-icon>date_range</mat-icon>
+          <h5>{{ dateTime | async | date:'longDate'}} </h5>
+        </span>
       </div>
       <div class="col-6">
-        <span><mat-icon>timelapse</mat-icon><h5>{{ dateTime | async | date:'mediumTime'}} </h5></span>
+        <span>
+          <mat-icon>timelapse</mat-icon>
+          <h5>{{ dateTime | async | date:'mediumTime'}} </h5>
+        </span>
       </div>
     </div>
   </mat-toolbar-row>

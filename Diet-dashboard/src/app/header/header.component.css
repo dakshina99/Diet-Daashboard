@@ -7,6 +7,7 @@ mat-toolbar {
 }
 h5{
   color: floralwhite;
+  font-size: 15px;
 }
 
 mat-icon{
@@ -16,4 +17,9 @@ button {
   outline: none;
   border: 0;
   background: transparent;
+}
+h1{
+  color: azure;
+  font-family: 'Titan One', cursive;
+  font-size: 28px;
 }

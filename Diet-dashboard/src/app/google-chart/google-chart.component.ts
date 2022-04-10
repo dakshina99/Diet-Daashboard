@@ -27,8 +27,16 @@ export class GoogleChartComponent implements OnInit {
       ['Fiber',  this.sumList[3] ]
     ],
     options: {width: 700,
-      height : 500
+      height : 500,
+      chartArea:{left:150,top:40,right:20,bottom:20,width:'100%',height:'105%'},
+      legend:{position: 'right', alignment:'center', textStyle: {color: '#0f172a', fontSize:24}},
+      backgroundColor:{fill:'aliceblue'},
+      sliceVisibilityThreshold:0
+
    },
+
+
+
 
   };
 

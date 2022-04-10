@@ -21,6 +21,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { Ng2GoogleChartsModule } from 'ng2-google-charts';
 import { GoogleChartComponent } from './google-chart/google-chart.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -32,7 +33,8 @@ import { GoogleChartComponent } from './google-chart/google-chart.component';
     TodayListComponent,
     GoogleChartComponent,
     HeaderComponent,
-    SidenavComponent
+    SidenavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

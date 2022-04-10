@@ -3,10 +3,15 @@
     <img src="./assets/logo.png" alt="Logo" />
   </div>
   <mat-divider></mat-divider>
-  <h2 matSubheader class="mt-2">DIET DASHBOARD</h2>
 
-  <a mat-list-item routerLinkActive="list-item-active" routerLink="/foodlist"> <mat-icon>restaurant_menu</mat-icon> Food List </a>
-  <a mat-list-item routerLinkActive="list-item-active" routerLink="/todaylist"> <mat-icon>today</mat-icon> Today List </a>
-  <a mat-list-item routerLinkActive="list-item-active" routerLink="/chart"> <mat-icon>pie_chart</mat-icon> Chart </a>
+<div class="container">
+  <div class="row mt-5">
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/home"> <mat-icon>home</mat-icon> Home </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/foodlist"> <mat-icon>restaurant_menu</mat-icon> Food List </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/todaylist"> <mat-icon>today</mat-icon> Today List </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/chart"> <mat-icon>pie_chart</mat-icon> Nutrition Chart </a>
+  </div>
+
+</div>
 </mat-nav-list>
 
